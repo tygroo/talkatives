@@ -24,12 +24,12 @@ public class GreetingServiceTest {
     @Test
     public void get() throws IOException {
         final String message = WebClient.create("http://localhost:4204").path("/GreetingServiceTest/greeting/").get(String.class);
-        assertEquals("Hi REST!", message);
+        assertEquals("Hi REST!!!", message);
     }
 
     @Test
     public void post() throws IOException {
         final String message = WebClient.create("http://localhost:4204").path("/GreetingServiceTest/greeting/").post("Hi REST!", String.class);
-        assertEquals("hi rest!", message);
+        assertEquals("hi rest!!!", message);
     }
 }

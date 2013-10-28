@@ -8,11 +8,11 @@ import javax.ws.rs.Path;
 public class GreetingService {
     @GET
     public String message() {
-        return "Hi REST!";
+        return "Hi REST!!!";
     }
 
     @POST
     public String lowerCase(final String message) {
-        return "Hi REST!".toLowerCase();
+        return "Hi REST!!!".toLowerCase();
     }
 }
