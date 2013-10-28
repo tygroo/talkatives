@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>fr.epsi.i4.talkative</groupId>
-	<artifactId>talkatives</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>Talkative</name>
-	<description>
-	Le projet Talkative permet aux bloggeurs et aux fournisseurs de contenu sur le Web 
-	d'ajouter un fil de discussion sur leurs articles et leurs pages. 
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.epsi.i4.talkative</groupId>
+    <artifactId>talkatives</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>Talkative</name>
+    <description>
+	Le projet Talkative permet aux bloggeurs et aux fournisseurs de contenu sur le Web
+	d'ajouter un fil de discussion sur leurs articles et leurs pages.
 	Une personne souhaitant commenter un article, le fera directement sur la page concernée
 	via	le service de Talkative.
 	</description>
     <developers>
-       <developer> </developer>
+        <developer>
+            <id>tygroo</id>
+            <name>Brice Bonheur</name>
+           <email>tygroo972@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+
 
     </developers>
 
-	<properties>
+    <properties>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<dependencies>
+    <dependencies>
 		<dependency>
 			<!-- L'API Java EE 6 -->
 			<groupId>org.apache.openejb</groupId>
@@ -48,7 +56,7 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+    <build>
 		<plugins>
 			<plugin>
 				<!-- le plugin pour démarrer TomEE depuis la ligne de commande avec maven :
