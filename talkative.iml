@@ -33,8 +33,8 @@
     <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.module.container" level="application" />
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.openejb:javaee-api:6.0-5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-jaxrs:1.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:javaee-api:tomcat:6.0-5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:openejb-rest:4.5.2" level="project" />
@@ -102,6 +102,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-loader:1.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-catalina:1.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-jdbc:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.openejb:openejb-core:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.openejb:openejb-jee:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:2.6.4" level="project" />
   </component>
 </module>
 
