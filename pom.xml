@@ -40,6 +40,15 @@
                 <role>Administrateur Système</role>
             </roles>
         </developer>
+        
+        <developer>
+            <id>mercloic</id>
+            <name>Loïc Mercier</name>
+           <email>loic.mercier@epsi.fr</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
 
     </developers>
 
