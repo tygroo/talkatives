@@ -1,5 +1,7 @@
-package talkatives;
+package test.java.talkative;
 
+
+import main.java.talkatives.GreetingService;
 
 import org.apache.cxf.jaxrs.client.WebClient;
 import org.apache.openejb.jee.SingletonBean;
