@@ -1,7 +1,5 @@
-package test.java.talkative.resource;
+package java.talkative.resource;
 
-
-import main.java.talkatives.resource.GreetingService;
 
 import org.apache.cxf.jaxrs.client.WebClient;
 import org.apache.openejb.jee.SingletonBean;
