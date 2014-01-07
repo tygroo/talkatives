@@ -1,6 +1,6 @@
 package epsi.talkative.resource;
 
-import javax.ejb.EJB;
+import javax.inject.Inject;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.WebApplicationException;
@@ -11,7 +11,7 @@ import epsi.talkative.repository.EditorRepository;
 @Path("editors")
 public class EditorsResource {
 
-	@EJB
+	@Inject
 	private EditorRepository editorRepository;
 
 	@Path("{editor}")
