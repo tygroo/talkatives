@@ -17,7 +17,11 @@
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src" />
+<<<<<<< HEAD
           <root url="file://$MODULE_DIR$/test" />
+=======
+          <root url="file://$MODULE_DIR$/src/main" />
+>>>>>>> 932973a... fix
         </sourceRoots>
       </configuration>
     </facet>
